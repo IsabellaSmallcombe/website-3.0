@@ -43,10 +43,10 @@ button {
   background-color: white;
   padding: 15px;
   width: 150px;
-  font-family: 'Karrik', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: 'Karrik', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  color: #213FFF;
+  color: #213fff;
 }
 
 button:hover {
@@ -63,8 +63,17 @@ button:hover {
 
 h2 {
   letter-spacing: 0.05em;
-  font-family: 'Lack line';
+  font-family: 'VTF MisterPixel';
   font-size: 30px;
+  font-weight: normal;
+}
+
+h1 {
+  letter-spacing: 0.05em;
+  font-family: 'VTF MisterPixel Tools';
+  font-size: 80px;
+  font-weight: normal;
+  margin-bottom: 0px;
 }
 
 .animate-move {
@@ -72,6 +81,16 @@ h2 {
   top: 0;
   transition: top ease 0.5s;
 }
+
 .animate-move:hover {
   top: -5px;
+}
+
+.title-div {
+  display: flex;
+}
+
+.title-text {
+  margin-top: 60px;
+  font-size: 70px;
 }
