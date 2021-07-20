@@ -17,10 +17,10 @@ code {
 
 @font-face {
   font-family: 'VTF MisterPixel';
-  src: url('./fonts/Mister\ Pixel\ Regular.otf') format('truetype');
+  src: url('./fonts/Mister-Pixel-Regular.otf') format('truetype');
 }
 
 @font-face {
   font-family: 'VTF MisterPixel Tools';
-  src: url('./fonts/Mister\ Pixel\ Tools.otf format') format('truetype');
+  src: url('./fonts/Mister-Pixel-Tools.otf') format('truetype');
 }
