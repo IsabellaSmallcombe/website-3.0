@@ -1,12 +1,11 @@
 body {
   margin: 50px;
-  font-family: 'Karrik', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: 'Karrik', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:  #0724DE
-  ;
+  background-color: #0724de;
   color: white;
   text-align: left;
 }
@@ -14,4 +13,14 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'VTF MisterPixel';
+  src: url('./fonts/Mister\ Pixel\ Regular.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'VTF MisterPixel Tools';
+  src: url('./fonts/Mister\ Pixel\ Tools.otf format') format('truetype');
 }

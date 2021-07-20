@@ -29,16 +29,6 @@ function App() {
           <li>
             Software Engineering Intern at Atlassian (Nov 2020 - July 2021)
           </li>
-          <ul>
-            <li>
-              Worked on the Jira Service Management team and Cloud Migrations
-              team
-            </li>
-            <li>
-              Worked on the Jira Service Management team and Cloud Migrations
-              team
-            </li>
-          </ul>
           <li>Software Engineering Intern at Snapchat (Nov 2019 - Feb 2020)</li>
           <li>
             IT Director for Women In Engineering Society at UNSW (Dec 2019 - May
