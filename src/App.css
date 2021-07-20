@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+button {
+  border-radius: 25px;
+  border: none;
+  background-color: white;
+  padding: 15px;
+  width: 150px;
+  font-family: 'Karrik', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  color: #213FFF;
+}
+
+button:hover {
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.74);
+}
+
+.experience-list {
+  text-align: left;
+}
+
+.divider {
+  width: 300px;
+}
+
+h2 {
+  letter-spacing: 0.05em;
+  font-family: 'Lack line';
+  font-size: 30px;
+}
+
+.animate-move {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+.animate-move:hover {
+  top: -5px;
+}
