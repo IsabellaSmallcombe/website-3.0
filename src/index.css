@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #0724de;
   color: white;
-  text-align: left;
+  text-align: center;
 }
 
 code {
@@ -23,4 +23,9 @@ code {
 @font-face {
   font-family: 'VTF MisterPixel Tools';
   src: url('./fonts/Mister-Pixel-Tools.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Karrik';
+  src: url('./fonts/Karrik-Regular.otf') format('truetype');
 }

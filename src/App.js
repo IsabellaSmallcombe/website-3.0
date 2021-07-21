@@ -11,19 +11,21 @@ function App() {
           <h1>E</h1>
           <h2 className="title-text">hello</h2>
         </div>
-
         <p>
           I'm Isabella! Currently I am studying computer science at the
           University of New South Wales with an expected graduation in November
           2021.
         </p>
+        <br/>
         <a
-          href="https://drive.google.com/file/d/1E80qAJX-V9Gyl4QT4lxQRbalxeQODX5G/view?usp=sharing"
+          href="https://drive.google.com/file/d/1NtaqoTyFyCRgCXGFDPKuKOnj4t5Dpx-j/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
           <button className="animate-move">Resume</button>
         </a>
+        <br/>
+        <br/>
         <h2>Experience</h2>
         <ul className="experience-list">
           <li>
@@ -35,16 +37,20 @@ function App() {
             2021)
           </li>
         </ul>
+        <br/>
         <h2>University Courses</h2>
         <p>
-          Introduction to Programming, Computer Systems Fundamentals, Data
-          Structures and Algorithms, Database Systems, Software Engineering
+          Programming Fundamentals, Data Structures and Algorithms, Computer
+          System Fundamentals, Database Systems, Software Engineering
           Fundamentals, Introduction to Artificial Intelligence, Security
           Engineering and Cybersecurity, Software Construction, Object-Oriented
-          Design and Programming, and Operating Systems
+          Design and Programming, Operating Systems, Web Front-End Programming,
+          and Computer Networks and Applications
         </p>
+        <br/>
         <h2>Programming Languages</h2>
-        <p>Python, Java, Kotlin, Javascript / React</p>
+        <p>Python, Java, Kotlin, JavaScript / React</p>
+        <br/>
         <h2>Send me a message ☺︎</h2>
         <a
           href="https://twitter.com/iismallcombe"
@@ -68,6 +74,10 @@ function App() {
           <img className="animate-move" src={github} alt="Github icon" />
         </a>
       </body>
+      <footer>
+        Fonts from Velvetyne Type Foundry by Jean-Baptiste Morizot, Lucas Le
+        Bihan, and Christophe Badani
+      </footer>
     </div>
   )
 }
